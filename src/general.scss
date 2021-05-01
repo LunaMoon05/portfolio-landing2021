@@ -1,0 +1,53 @@
+@import './reset.scss';
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Code-Pro';
+  src: url("./assets/fonts/Code-Pro.woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Bello-Pro';
+  src: url("./assets/fonts/Bello-Pro.woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Code-Pro';
+  src: url("./assets/fonts/Code-Pro-Bold.woff");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Code-Pro';
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 31px;
+  font-weight: 400;
+  font-family: 'Bello-Pro';
+}
+
+p {
+  font-size: 37px;
+  line-height: 45px;
+}
+
+$aquaMarine: #15b6a1;

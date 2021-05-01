@@ -1,7 +1,8 @@
+import {Preview} from './components/preview/preview'
 function App() {
   return (
     <div className="App">
-      <h2>bootstrap with react</h2>
+      <Preview />
     </div>
   );
 }
