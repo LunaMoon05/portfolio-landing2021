@@ -4,41 +4,24 @@
   font-family: 'Code-Pro';
   font-weight: 400;
   font-size: 20px;
-  padding-top: .5rem;
-  padding-bottom: 2rem;
+  padding-top: .8rem;
+  padding-bottom: 6rem;
   background-color: $aquaMarine;
-  &__text {
-    color: white;
-    padding-top: 3rem;
-  }
+
   &__title {
     color: white;
-    margin: 1rem 0 .3rem 0;
   }
-  &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+  &__subtitle {
+    color: $dark;
   }
-  &__photo {
-    position: relative;
-    width: 100px;
-    height: 100px;
+
+  &__text {
+    color: white;
+    margin-top: 4rem;
+  }
+
+  &__icon {
     background-image: url('./dev.png');
-    background-position: center;
-    background-size: 100%;
-    &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      bottom: 0;
-      left: -105px;
-      width: 300px;
-      height: 1px;
-      background-position: center;
-      background-size: 100%;
-      background-image: url('./lightline.png');
-    }
   }
 }

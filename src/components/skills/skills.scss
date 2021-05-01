@@ -1,0 +1,15 @@
+@import '../../general.scss';
+
+.skills {
+  background-color: $grey;
+  padding-top: .7rem;
+  &__title {
+    color: $dark;
+  }
+  &__subtitle {
+    color: $aquaMarine;
+  }
+  &__icon {
+    background-image: url('./light.png');
+  }
+}
