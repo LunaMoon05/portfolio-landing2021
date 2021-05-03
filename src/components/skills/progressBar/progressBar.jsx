@@ -1,16 +1,9 @@
 import './progressBar.scss'
-import reactIcon from './react.svg'
-import es6Icon from './javascript.svg'
-export const ProgressBar = () => {
+export const ProgressBar = ({tool, progress}) => {
   return (
-    <div className="progress">
-      <div className="progress__text">React.js</div>
-      <div className="progress__bar">
-        <div className="progress__bar-icon">
-          <img src={es6Icon} alt=""/>
-        </div>
-        <div className="progress__bar-line"></div>
-      </div>
+    <div className="tool">
+      <div className="tool__text">{tool}</div>
+      <div className="tool__bar"><div style={{width: progress}} className="tool__bar-line">{progress}</div></div>
     </div>
   )
 }

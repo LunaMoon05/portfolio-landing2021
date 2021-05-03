@@ -25,6 +25,13 @@ $grey: #eeeeee;
   src: url("./assets/fonts/Code-Pro-Bold.woff");
 }
 
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Kronaone';
+  src: url("./assets/fonts/Kronaone.woff");
+}
+
 body {
   padding: 20px;
 }

@@ -3,6 +3,14 @@
 .skills {
   background-color: $grey;
   padding-top: .7rem;
+  padding-bottom: 2rem;
+  &__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin-top: .8rem;
+  }
   &__title {
     color: $dark;
   }
