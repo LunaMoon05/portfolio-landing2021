@@ -2,21 +2,22 @@
 
 .skills {
   background-color: $grey;
-  padding-top: .7rem;
-  padding-bottom: 2rem;
+
   &__list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
-    margin-top: .8rem;
+    margin-top: 1.2rem;
   }
+
   &__title {
     color: $dark;
   }
+
   &__subtitle {
     color: $aquaMarine;
   }
+
   &__icon {
     background-image: url('./light.png');
   }

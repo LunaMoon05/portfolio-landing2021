@@ -8,7 +8,7 @@ export const Preview = () => {
           <div className="line line-light"></div>
           <h1 className="preview__title">Степанов Михаил</h1>
           <h5 className="preview__subtitle">frontend-developer</h5>
-          <p className="preview__text">Адаптивная &amp; семантичная разработка веб-приложений + scss/less + ES6 + React.js</p>
+          <p className="preview__text">Адаптивная &amp; семантичная разработка веб-приложений + ES6 + React.js + scss/less</p>
           <h5 className="preview__subtitle">since 2020</h5>
         </div>
       </div>

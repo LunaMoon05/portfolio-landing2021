@@ -2,6 +2,7 @@
 
 $aquaMarine: #15b6a1;
 $dark: #32323a;
+$superDark: #4c4c55;
 $grey: #eeeeee;
 
 @font-face {
@@ -34,6 +35,11 @@ $grey: #eeeeee;
 
 body {
   padding: 20px;
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
 }
 
 *,

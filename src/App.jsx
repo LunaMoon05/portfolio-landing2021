@@ -1,4 +1,5 @@
 import './App.scss'
+import { Portfolio } from './components/portfolio/portfolio'
 import {Preview} from './components/preview/preview'
 import { Skills } from './components/skills/skills'
 function App() {
@@ -10,8 +11,9 @@ function App() {
       <div className="frame frame-bottom"></div>
       <Preview />
       <Skills />
+      <Portfolio />
     </div>
-  );
+  )
 }
 
 export default App
