@@ -1,4 +1,5 @@
 @import './general.scss';
+
 .frame {
   position: fixed;
   background-color: $dark;
@@ -25,4 +26,58 @@
     height: 20px;
     width: 100%;
   }
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+}
+
+.icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.line {
+  width: 300px;
+  height: 1px;
+  background-position: center;
+  background-size: 100%;
+
+  &-light {
+    background-image: url('./assets/img/lightline.png');
+  }
+
+  &-dark {
+    background-image: url('./assets/img/darkline.png');
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: 'Code-Pro';
+  font-weight: 400;
+  margin: 1rem 0 .3rem 0;
+}
+
+.subtitle {
+  font-size: 31px;
+  font-weight: 400;
+  font-family: 'Bello-Pro';
+}
+
+.text {
+  font-size: 37px;
+  line-height: 45px;
 }

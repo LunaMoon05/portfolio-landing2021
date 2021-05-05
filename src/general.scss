@@ -38,8 +38,7 @@ body {
 }
 
 section {
-  padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding: 1rem 1.5rem 6rem 1.5rem;
 }
 
 *,
@@ -47,58 +46,4 @@ section {
 *::before {
   box-sizing: border-box;
   background-repeat: no-repeat;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 900px;
-}
-
-.icon {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: 100%;
-}
-
-.line {
-  width: 300px;
-  height: 1px;
-  background-position: center;
-  background-size: 100%;
-
-  &-light {
-    background-image: url('./assets/img/lightline.png');
-  }
-
-  &-dark {
-    background-image: url('./assets/img/darkline.png');
-  }
-}
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-h1 {
-  font-size: 50px;
-  font-family: 'Code-Pro';
-  font-weight: 400;
-  margin: 1rem 0 .3rem 0;
-}
-
-h5 {
-  font-size: 31px;
-  font-weight: 400;
-  font-family: 'Bello-Pro';
-}
-
-p {
-  font-size: 37px;
-  line-height: 45px;
 }
