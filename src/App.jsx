@@ -1,4 +1,5 @@
 import './App.scss'
+import { Hobby } from './components/hobby/hobby'
 import { Portfolio } from './components/portfolio/portfolio'
 import {Preview} from './components/preview/preview'
 import { Skills } from './components/skills/skills'
@@ -12,6 +13,7 @@ function App() {
       <Preview />
       <Skills />
       <Portfolio />
+      <Hobby />
     </div>
   )
 }

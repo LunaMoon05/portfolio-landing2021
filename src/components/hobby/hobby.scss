@@ -1,0 +1,17 @@
+@import '../../general.scss';
+
+.hobby {
+  background-color: $orange;
+  &__title {
+    color: white;
+  }
+  &__text {
+    color: white;
+  }
+  &__subtitle {
+    color: $dark;
+  }
+  &__icon {
+    background-image: url('./chess.svg');
+  }
+}
