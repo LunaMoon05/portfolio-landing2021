@@ -3,15 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import gamePhoto from './worksPhoto/game.png'
 import commentariesPhoto from './worksPhoto/widgetCommentary.png'
 import 'swiper/swiper.scss'
-
-// import Swiper core and required modules
-import SwiperCore, { Navigation } from 'swiper';
-
-// Import Swiper styles
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 import 'swiper/components/navigation/navigation.scss';
 
-// install Swiper modules
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, Pagination]);
 
 export const Portfolio = () => {
   let data = [{
@@ -42,12 +37,17 @@ export const Portfolio = () => {
           <h1 className="title portfolio__title">Мое портфолио</h1>
           <h5 className="subtitle portfolio__subtitle">my best works</h5>
           <div className="portfolio__slider">
-          <button className="prev" />
-          <button className="next" />
-            <Swiper navigation={{
-              prevEl: '.prev',
-              nextEl: '.next',
-            }} spaceBetween={20} id='main'>
+            <button className="prev" />
+            <button className="next" />
+            <div className="pagination"></div>
+            <Swiper
+              navigation={{
+                prevEl: '.prev',
+                nextEl: '.next',
+              }} pagination={{
+                el: '.pagination',
+                clickable: true
+              }} spaceBetween={20} id='main'>
               {slides}
             </Swiper>
           </div>

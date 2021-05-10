@@ -20,6 +20,29 @@
       opacity: .5;
       cursor: default;
     }
+    @media(max-width: 1170px) {
+      display: none;
+    }
+  }
+
+  .pagination {
+    position: absolute;
+    bottom: -2.8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    span {
+      width: 14px;
+      height: 14px;
+      &:first-child {
+        margin-right: .5rem;
+      }
+    }
+    .swiper-pagination-bullet-active {
+      background-color: $aquaMarine;
+    }
+    @media(min-width: 1170px) {
+      display: none;
+    }
   }
 
   .next {
@@ -36,6 +59,7 @@
   }
 
   &__slider {
+    position: relative;
     margin-top: 2rem;
   }
 

@@ -2,7 +2,6 @@
 
 .contacts {
   background-color: $greyLight;
-  padding: 2.2rem 1.5rem 8rem 1.5rem;
   &__subtitle {
     color: $aquaMarine;
   }
@@ -10,12 +9,15 @@
     background-image: url('./mail.svg');
   }
   &__text {
+    @include fontSize(42, 14);
     transition: .1s linear color;
     &:hover {
       color: $aquaMarine;
     }
   }
   &__phone {
-    margin-top: 1.5rem;
+    @media(max-width: 560px) {
+      margin-top: 0vw;
+    }
   }
 }
