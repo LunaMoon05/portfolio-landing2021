@@ -1,4 +1,5 @@
 import './App.scss'
+import { Contacts } from './components/contacts/contacts'
 import { Hobby } from './components/hobby/hobby'
 import { Portfolio } from './components/portfolio/portfolio'
 import {Preview} from './components/preview/preview'
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <Hobby />
       <Social />
+      <Contacts />
     </div>
   )
 }

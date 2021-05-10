@@ -17,7 +17,7 @@ export const Social = () => {
           <div className="social__list">
             <SocialItem link="https://vk.com/id462487345" img={vk} bgColor={'#4d7198'} />
             <SocialItem link="https://github.com/LunaMoon05" img={git} bgColor={'#171515'} />
-            <SocialItem link="https://github.com/LunaMoon05" img={tg} bgColor={'#08c'} />
+            <SocialItem link="https://t.me/Luna_Moon" img={tg} bgColor={'#08c'} />
           </div>
         </div>
       </div>

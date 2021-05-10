@@ -1,0 +1,21 @@
+@import '../../general.scss';
+
+.contacts {
+  background-color: $greyLight;
+  padding: 2.2rem 1.5rem 8rem 1.5rem;
+  &__subtitle {
+    color: $aquaMarine;
+  }
+  &__icon {
+    background-image: url('./mail.svg');
+  }
+  &__text {
+    transition: .1s linear color;
+    &:hover {
+      color: $aquaMarine;
+    }
+  }
+  &__phone {
+    margin-top: 1.5rem;
+  }
+}
