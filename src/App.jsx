@@ -3,6 +3,7 @@ import { Hobby } from './components/hobby/hobby'
 import { Portfolio } from './components/portfolio/portfolio'
 import {Preview} from './components/preview/preview'
 import { Skills } from './components/skills/skills'
+import { Social } from './components/social/social'
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Hobby />
+      <Social />
     </div>
   )
 }

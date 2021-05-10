@@ -1,0 +1,47 @@
+@import '../../general.scss';
+
+.social {
+  background-color: $blue;
+  &__title {
+    color: white;
+  }
+  &__subtitle {
+    color: $dark;
+  }
+  &__text {
+    color: white;
+  }
+  &__icon {
+    background-image: url('./social.svg');
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+  }
+  &__item {
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    &:hover {
+      .social__link {
+        transform: translateY(-100%);
+      }
+      .social__link-hover {
+        transform: translateY(-100%);
+      }
+    }
+  }
+  .social__link {
+    display: block;
+    width: 300px;
+    height: 300px;
+    transition: .25s ease-out transform;
+    img {
+      width: 40%;
+      height: 100%;
+    }
+  }
+}
