@@ -31,6 +31,31 @@
   }
 }
 
+.load-screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 300;
+  background-color: $dark;
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  &__title {
+    position: absolute;
+    font-family: 'Code-Pro';
+    width: 100%;
+    text-align: center;
+    font-size: 37px;
+    top: 42%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+}
+
 .container {
   margin: 0 auto;
   width: 100%;
