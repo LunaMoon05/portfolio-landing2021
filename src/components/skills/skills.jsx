@@ -19,12 +19,12 @@ export const Skills = () => {
           <h1 data-wow-offset="350" className="title skills__title text preview__text wow animate__animated animate__backInDown">Мои навыки</h1>
           <h5 data-wow-offset="300" className="subtitle skills__subtitle wow animate__animated animate__backInLeft">my favourite tools</h5>
           <div data-wow-offset="200" className="skills__list wow animate__animated animate__fadeIn">
-            <ProgressBar tool="HTML" progress="86%" />
-            <ProgressBar tool="CSS(LESS/SCSS)" progress="76%" />
-            <ProgressBar tool="JavaScript" progress="77%" />
-            <ProgressBar tool="Redux" progress="53%" />
-            <ProgressBar tool="React.js" progress="62%" />
-            <ProgressBar tool="Gulp/Wepback" progress="30%" />
+            <ProgressBar tool="HTML" progress="80%" />
+            <ProgressBar tool="CSS(LESS/SCSS)" progress="73%" />
+            <ProgressBar tool="JavaScript" progress="86%" />
+            <ProgressBar tool="Redux" progress="52%" />
+            <ProgressBar tool="React.js" progress="64%" />
+            <ProgressBar tool="Wepback" progress="55%" />
           </div>
         </div>
       </div>

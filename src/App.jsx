@@ -6,8 +6,11 @@ import { Portfolio } from './components/portfolio/portfolio'
 import { Preview } from './components/preview/preview'
 import { Skills } from './components/skills/skills'
 import { Social } from './components/social/social'
+import { HashRouter } from 'react-router-dom'
+
 function App() {
   return (
+    <HashRouter>
     <div className="App">
       <div className="load-screen animate__animated animate__delay-1s animate__bounceOutUp">
         <div className="load-screen__wrapper">
@@ -25,6 +28,7 @@ function App() {
       <Social />
       <Contacts />
     </div>
+    </HashRouter>
   )
 }
 
